@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react'
 import { GlobalContext } from '../context/GlobalContext';
 
+
 export const AddTransaction = () => {
     const [description, setDescription]=useState('');
     const [amount, setAmount]=useState(0);
